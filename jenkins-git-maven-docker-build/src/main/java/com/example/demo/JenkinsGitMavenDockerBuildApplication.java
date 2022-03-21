@@ -8,6 +8,7 @@ public class JenkinsGitMavenDockerBuildApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsGitMavenDockerBuildApplication.class, args);
+		System.out.println("Hello");
 	}
 
 }
