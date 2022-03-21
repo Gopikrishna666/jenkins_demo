@@ -23,4 +23,9 @@ public class TeacherController {
 		}
 		return list.toString();
 	}
+	
+	@GetMapping(path="/students")
+	public String getStudents() {
+		return "Gopi";
+	}
 }
