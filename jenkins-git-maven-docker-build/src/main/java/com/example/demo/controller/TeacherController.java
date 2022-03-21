@@ -13,6 +13,7 @@ public class TeacherController {
 	@GetMapping(path="/teachers")
 	public String getTeacherr() {
 		List<String> list = Arrays.asList("amar","swetha","sumi");
+		System.out.println(list);
 		return list.toString();		
 	}
 	@GetMapping("/teachers/{dept}")
@@ -24,8 +25,4 @@ public class TeacherController {
 		return list.toString();
 	}
 	
-	@GetMapping(path="/students")
-	public String getStudents() {
-		return "Gopi krishna";
-	}
 }
