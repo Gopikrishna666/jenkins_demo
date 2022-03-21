@@ -26,6 +26,6 @@ public class TeacherController {
 	
 	@GetMapping(path="/students")
 	public String getStudents() {
-		return "Gopi";
+		return "Gopi krishna";
 	}
 }
